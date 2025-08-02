@@ -1,105 +1,161 @@
 const data = {
   personal: {
-    name: "Sarah Johnson",
-    designation: "Data Scientist",
+    name: "Divya Satar",
+    designation: "ACCA Part-Qualified | Former Deloitte Professional",
     contacts: [
-      { type: "tel", label: "+1-555-123-4567" },
-      { type: "email", label: "sarah.johnson@example.com" },
-      { type: "website", label: "sarahjohnson.dev", urlPrefix: "https://" },
-      { type: "location", label: "Boston, MA" },
+      { type: "tel", label: "+44 7721962010" },
+      { type: "email", label: "divyasatar500@gmail.com" },
+      { type: "website", label: "linkedin.com/in/divyasatar", urlPrefix: "https://" },
+      { type: "location", label: "Oxfordshire, United Kingdom" },
     ],
+    visa: "Graduate Route (Valid until 21 May 2027) – Eligible to work in the UK"
   },
   summary:
-    "Results-driven Data Scientist with 5 years of experience developing machine learning models and data-driven solutions. Skilled in transforming complex datasets into actionable insights that drive business decisions. Expertise in predictive modeling, natural language processing, and computer vision. Passionate about solving challenging problems through innovative applications of AI while maintaining a strong focus on ethical considerations and business impact.",
+    "UK-based audit professional with 3+ years of experience at Deloitte, leading cross-border audit engagements and coordinating multinational teams. Adept at resource scheduling, operational planning to support strategic decisions. Proven ability to balance practitioner preferences, business needs, and engagement deadlines. Passionate about driving operational excellence and contributing to business talent strategy. Actively preparing for ACCA and seeking a resource-focused role within Audit & Assurance.",
   experience: [
     {
-      role: "Senior Data Scientist",
+      role: "Senior Audit Associate",
       type: "Full-time",
-      from: "Jan 2022",
+      from: "Jun 2023",
+      till: "Dec 2023",
+      company: "Deloitte Haskins & Sells LLP",
+      location: "Mumbai, India",
+      achievements: [
+        "Served as Field Senior for a European retail group (turnover £68B+), managing cross-border deliverables across Deloitte UK, Ireland, and Central Europe",
+        "Supported effective deployment of on- and offshore resources to meet client deadlines while aligning with team preferences and availability",
+        "Participated in budget planning and capacity discussions to ensure optimal practitioner scheduling",
+        "Automated audit templates using Excel Macros streamlining resource coordination and reducing team hours by 40%",
+        "Built trusted relationships with practitioners and coached junior team members, supporting their development and training compliance",
+        "Conducted walkthroughs and control testing under SOX/ICFR, providing insights for resource allocation and scheduling under high-volume periods",
+        "Recognised with Deloitte's \"Move the Dot\" and \"Dot of Frame\" awards for contributions to audit quality and process optimisation"
+      ],
+    },
+    {
+      role: "Audit Associate",
+      type: "Full-time",
+      from: "Feb 2021",
+      till: "May 2023",
+      company: "Deloitte Haskins & Sells LLP",
+      location: "Mumbai, India",
+      achievements: [
+        "Executed comprehensive audit procedures for statutory and group audits across multiple industries",
+        "Developed expertise in IFRS, Ind AS, and UK GAAP financial reporting standards",
+        "Collaborated with cross-functional teams to ensure timely completion of audit deliverables",
+        "Maintained detailed audit documentation and working papers in compliance with professional standards",
+        "Assisted in client relationship management and stakeholder engagement activities"
+      ],
+    },
+    {
+      role: "Customer Assistant",
+      type: "Full-time",
+      from: "Apr 2024",
       till: "Present",
-      company: "TechVision Analytics",
-      location: "Boston, MA",
+      company: "Tesco Superstore",
+      location: "Oxfordshire, UK",
       achievements: [
-        "Led a team of 4 data scientists in developing a real-time customer churn prediction model that increased retention by 23%",
-        "Designed and implemented an NLP pipeline that improved document classification accuracy by 31%",
-        "Created interactive data visualizations for executive dashboards that streamlined quarterly business reviews",
-        "Mentored junior data scientists and developed internal training materials for ML best practices",
+        "Supporting store operations and customer experience while pursuing ACCA and UK audit opportunities",
+        "Developed strong customer service skills and adaptability in a fast-paced retail environment",
+        "Maintained commitment to professional development while transitioning to UK market"
       ],
     },
     {
-      role: "Data Scientist",
-      type: "Full-time",
-      from: "Mar 2020",
-      till: "Dec 2021",
-      company: "HealthCore Systems",
-      location: "Cambridge, MA",
+      role: "Audit Intern",
+      type: "Internship",
+      from: "Nov 2020",
+      till: "Jan 2021",
+      company: "Deloitte Haskins & Sells LLP",
+      location: "Mumbai, India",
       achievements: [
-        "Developed a computer vision algorithm to detect anomalies in medical imaging with 92% accuracy",
-        "Implemented a patient risk stratification model that reduced hospital readmissions by 17%",
-        "Collaborated with clinicians to translate medical requirements into technical specifications",
-        "Built and deployed ML models using AWS SageMaker and monitored performance in production",
-      ],
-    },
-    {
-      role: "Data Analyst",
-      type: "Full-time",
-      from: "Jun 2018",
-      till: "Feb 2020",
-      company: "Global Retail Insights",
-      location: "New York, NY",
-      achievements: [
-        "Analyzed customer purchase patterns to optimize product placement, increasing sales by 15%",
-        "Created automated reporting systems that saved 20+ hours of manual work weekly",
-        "Performed A/B testing on marketing campaigns that improved conversion rates by 28%",
-        "Developed SQL queries and data pipelines to extract insights from multi-terabyte datasets",
+        "Gained foundational experience in audit procedures and professional standards",
+        "Assisted senior team members with documentation and testing procedures",
+        "Demonstrated strong analytical skills and attention to detail"
       ],
     },
   ],
   education: [
     {
-      certification: "Master of Science, Data Science",
-      from: "2016",
-      till: "2018",
-      institution: "Massachusetts Institute of Technology",
-      location: "Cambridge, MA",
+      certification: "ACCA – Association of Chartered Certified Accountants",
+      from: "2023",
+      till: "2026",
+      institution: "Part-Qualified | Applied Skills Level | Strategic Papers Commencing 2026",
+      location: "(Expected Completion: June 2026)",
     },
     {
-      certification: "Bachelor of Science, Statistics",
-      from: "2012",
-      till: "2016",
-      institution: "University of California, Berkeley",
-      location: "Berkeley, CA",
+      certification: "MSc – Management & Business Analytics",
+      from: "2024",
+      till: "2025",
+      institution: "Oxford Brookes University",
+      location: "UK",
+    },
+    {
+      certification: "MBA – Banking & Financial Markets",
+      from: "2022",
+      till: "2023",
+      institution: "NMIMS",
+      location: "India",
+    },
+    {
+      certification: "BCom – Accounting & Finance",
+      from: "2017",
+      till: "2020",
+      institution: "University of Mumbai",
+      location: "India",
     },
   ],
   keyAchievements: [
     {
-      title: "Developed patent-pending ML algorithm",
-      desc: "Created a novel approach to time-series forecasting that outperformed industry benchmarks by 35% and is currently in the patent application process",
+      title: "Deloitte Recognition Awards",
+      desc: "Recognised with Deloitte's \"Move the Dot\" and \"Dot of Frame\" awards for contributions to audit quality and process optimisation",
     },
     {
-      title: "Published research in top AI conference",
-      desc: "First-author paper on interpretable machine learning models accepted at NeurIPS 2021",
+      title: "Audit Automation Excellence",
+      desc: "Automated audit templates using Excel Macros streamlining resource coordination and reducing team hours by 40%",
     },
     {
-      title: "Led open-source ML library development",
-      desc: "Core contributor to PyTimeSeries, a library with over 500,000 downloads used for time-series analysis and forecasting",
+      title: "Cross-Border Leadership",
+      desc: "Successfully managed audit deliverables for a European retail group (turnover £68B+) across multiple Deloitte offices in UK, Ireland, and Central Europe",
     },
   ],
-  skills: [
-    "Python",
-    "PyTorch",
-    "TensorFlow",
-    "scikit-learn",
-    "SQL",
-    "R",
-    "AWS",
-    "Docker",
-    "Kubernetes",
-    "Tableau",
-    "Power BI",
-    "Git",
-    "MLOps",
-  ],
+  coreSkills: {
+    audit: [
+      "External Audit (Statutory, Group, Shared Services)",
+      "SOX & ICFR",
+      "Internal Controls",
+      "Risk Assessment",
+      "Client Relationship Management",
+      "Stakeholder Engagement",
+      "Cross-Border Audit Coordination",
+      "Team Leadership"
+    ],
+    financial: [
+      "IFRS",
+      "Ind AS", 
+      "UK GAAP",
+      "Financial Reporting"
+    ],
+    technical: [
+      "SAP",
+      "Oracle Fusion", 
+      "Advanced Excel",
+      "Power BI",
+      "VBA",
+      "Audit Automation",
+      "Process Optimization"
+    ],
+    tools: [
+      "Deloitte EMS",
+      "Omnia",
+      "Excel Macros",
+      "RADC Portal",
+      "Deloitte Connect"
+    ]
+  },
+  certifications: [
+    "Business Analysis – LinkedIn Learning",
+    "Capital Markets – Bombay Stock Exchange", 
+    "Project Management Collaboration – IIBA",
+    "Google Analytics – Google Digital Academy"
+  ]
 };
 
 export default data;

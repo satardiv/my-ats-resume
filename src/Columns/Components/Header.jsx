@@ -1,31 +1,37 @@
 import React from "react";
 import { View, Text, StyleSheet } from "@react-pdf/renderer";
-import { style } from "../../Styles";
+import { TYPOGRAPHY, COLORS, SPACING } from "../../Styles";
 
 const styles = StyleSheet.create({
   header: {
-    marginBottom: "2px",
+    marginBottom: SPACING.xs,
   },
   candidateName: {
-    fontSize: style.h1,
+    fontSize: TYPOGRAPHY.sizes.h1,
     textTransform: "uppercase",
-    fontWeight: "semibold",
+    fontWeight: TYPOGRAPHY.fontWeights.semibold,
   },
   designation: {
-    fontSize: style.h2,
-    color: style.colors.secondary,
-    padding: "4px 0 4px 0",
+    fontSize: TYPOGRAPHY.sizes.h2,
+    color: COLORS.secondary,
+    padding: `${SPACING.sm} 0 ${SPACING.sm} 0`,
   },
 });
 
-export const CandidateName = ({ value }) => (
+export const CandidateName = React.memo(({ value }) => (
   <Text style={styles.candidateName}>{value}</Text>
-);
+));
 
-export const Designation = ({ value }) => (
+CandidateName.displayName = "CandidateName";
+
+export const Designation = React.memo(({ value }) => (
   <Text style={styles.designation}>{value}</Text>
-);
+));
 
-export const Header = ({ children }) => (
+Designation.displayName = "Designation";
+
+export const Header = React.memo(({ children }) => (
   <View style={styles.header}>{children}</View>
-);
+));
+
+Header.displayName = "Header";
