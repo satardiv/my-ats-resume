@@ -1,25 +1,28 @@
 import React from "react";
 import { View, Text, StyleSheet } from "@react-pdf/renderer";
-import { style } from "../../Styles";
+import { TYPOGRAPHY, COLORS, SPACING } from "../../Styles";
 
 const styles = StyleSheet.create({
   section: {
-    marginBottom: "10px",
+    marginBottom: SPACING.xl,
   },
   sectionHeader: {
     borderBottom: "1px",
-    borderColor: "#ccc",
-    paddingBottom: "6px",
-    marginBottom: "6px",
-    fontSize: style.h2,
+    borderColor: COLORS.borders.light,
+    paddingBottom: SPACING.md,
+    marginBottom: SPACING.md,
+    fontSize: TYPOGRAPHY.sizes.h2,
     textTransform: "uppercase",
+  },
+  sectionHeaderHighlight: {
+    borderColor: COLORS.borders.white,
   },
   sectionContent: {
     marginTop: "0px",
   },
 });
 
-export const Section = ({
+export const Section = React.memo(({
   header,
   children,
   style,
@@ -27,10 +30,15 @@ export const Section = ({
 }) => (
   <View style={[styles.section, style]}>
     <Text
-      style={[styles.sectionHeader, partOfHighlight && { borderColor: "#fff" }]}
+      style={[
+        styles.sectionHeader, 
+        partOfHighlight && styles.sectionHeaderHighlight
+      ]}
     >
       {header}
     </Text>
     <View style={styles.sectionContent}>{children}</View>
   </View>
-);
+));
+
+Section.displayName = "Section";
