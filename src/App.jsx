@@ -1,36 +1,11 @@
 import {
-  Page,
-  Document,
-  StyleSheet,
   PDFViewer,
   PDFDownloadLink,
-  Font,
 } from "@react-pdf/renderer";
 
 import "./App.css";
 
-import Main from "./Columns/Main";
-import Highlight from "./Columns/Highlight";
-import { style } from "./Styles";
-
-const Resume = () => (
-  <Document orientation="portrait">
-    <Page size="A4" style={styles.page}>
-      <Main />
-      <Highlight />
-    </Page>
-  </Document>
-);
-
-const styles = StyleSheet.create({
-  page: {
-    flexDirection: "row",
-    backgroundColor: "#fff",
-    fontSize: style.bodyFontSize,
-    color: style.bodyFontColor,
-    fontFamily: "Helvetica",
-  },
-});
+import Resume from "./Resume";
 
 function App() {
   return (
